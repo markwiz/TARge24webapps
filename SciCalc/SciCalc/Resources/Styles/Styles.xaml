@@ -24,16 +24,18 @@
         <Setter Property="FontSize" Value="22"/>
         <Setter Property="FontFamily" Value="RegularFont"/>
         <Setter Property="TextColor" Value="White"/>
-        <Setter Property="BackgroundColor" Value="#202731"/>
+        <Setter Property="BackgroundColor" Value="#000000"/>
+        <!-- must nupp -->
         <Setter Property="BorderWidth" Value="0"/>
-        <Setter Property="BorderColor" Value="{StaticResource BorderColor}"/>
+        <!-- piirjoon eemaldatud -->
         <Setter Property="VerticalOptions" Value="Fill"/>
         <Setter Property="HorizontalOptions" Value="Fill"/>
         <Setter Property="CornerRadius" Value="0"/>
         <Setter Property="Padding" Value="0"/>
-        <Setter Property="Margin" Value="0,0,1,1" />
+        <Setter Property="Margin" Value="0"/>
         <Setter Property="FontAutoScalingEnabled" Value="False" />
     </Style>
+
 
     <Style TargetType="Button" x:Key="OperatorButtonStyle">
         <Setter Property="FontSize" Value="22"/>
